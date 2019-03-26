@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "Burkay Durdu" => "burkaydurdu@outlook.com" }
   s.source       = { :git => "https://github.com/burkaydurdu/TestFrame.git", :tag => "v0.1" }
   s.source_files = "TestFrame/**/*.{h, swift}"
-  s.resources    = ["TestFrame/**/*.xib", "TestFrame/**/*.xcassets", "TestFrame/*.lproj"]
+  s.resources    = ["TestFrame/**/*.xib", "TestFrame/**/*.swift", "TestFrame/**/*.xcassets", "TestFrame/*.lproj"]
   
   s.platform = :ios, '11.4'
 
